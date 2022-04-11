@@ -11,6 +11,10 @@
 		CEA177172803A07A00887C53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA177162803A07A00887C53 /* ContentView.swift */; };
 		CEA177192803A07D00887C53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA177182803A07D00887C53 /* Assets.xcassets */; };
 		CEA1771C2803A07D00887C53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA1771B2803A07D00887C53 /* Preview Assets.xcassets */; };
+		CEA177242803A6D100887C53 /* NetworkManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA177232803A6D000887C53 /* NetworkManger.swift */; };
+		CEA177262803A80700887C53 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA177252803A80700887C53 /* Model.swift */; };
+		CEA177282803AF0500887C53 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA177272803AF0400887C53 /* DetailView.swift */; };
+		CEA1772A2803B31300887C53 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA177292803B31300887C53 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		CEA177162803A07A00887C53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEA177182803A07D00887C53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEA1771B2803A07D00887C53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEA177232803A6D000887C53 /* NetworkManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManger.swift; sourceTree = "<group>"; };
+		CEA177252803A80700887C53 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CEA177272803AF0400887C53 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		CEA177292803B31300887C53 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				CEA177142803A07A00887C53 /* HackerNewsApp.swift */,
+				CEA177222803A6BE00887C53 /* Models */,
 				CEA177162803A07A00887C53 /* ContentView.swift */,
+				CEA177272803AF0400887C53 /* DetailView.swift */,
 				CEA177182803A07D00887C53 /* Assets.xcassets */,
 				CEA1771A2803A07D00887C53 /* Preview Content */,
 			);
@@ -65,6 +75,16 @@
 				CEA1771B2803A07D00887C53 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEA177222803A6BE00887C53 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEA177232803A6D000887C53 /* NetworkManger.swift */,
+				CEA177252803A80700887C53 /* Model.swift */,
+				CEA177292803B31300887C53 /* WebView.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA177242803A6D100887C53 /* NetworkManger.swift in Sources */,
 				CEA177172803A07A00887C53 /* ContentView.swift in Sources */,
 				CEA177152803A07A00887C53 /* HackerNewsApp.swift in Sources */,
+				CEA1772A2803B31300887C53 /* WebView.swift in Sources */,
+				CEA177282803AF0500887C53 /* DetailView.swift in Sources */,
+				CEA177262803A80700887C53 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
